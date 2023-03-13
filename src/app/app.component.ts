@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   timer = 0;
   running = true;
-  inRun: string | number | NodeJS.Timeout | undefined;
+  inRun: NodeJS.Timeout | undefined;
 
   constructor() {
     this.Run();
