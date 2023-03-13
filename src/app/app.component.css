@@ -1,0 +1,42 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .screen {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  span {
+    height: inherit;
+  }
+  .center {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    display: flex;
+    top: 50%;
+  }
+  
+  .right {
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+  }
+  button {
+    align-self: center;
+    height: 30px;
+    width: 50px;
+  }
+  

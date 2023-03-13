@@ -1,0 +1,14 @@
+<div class="screen center">
+  <div class="container">
+    <div class="circle">
+      <span class="center">{{timer}}</span>
+    </div>
+    <div class="right">
+      <button (click)="Reset()">Reset</button>
+      <button *ngIf="running; else elseBlock" (click)="Pause()">Pause</button>
+      <ng-template #elseBlock>
+        <button (click)="Run()">Run</button>
+      </ng-template>
+    </div>
+  </div>
+</div>
